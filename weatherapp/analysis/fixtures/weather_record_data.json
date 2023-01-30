@@ -1,0 +1,2882 @@
+[
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 1,
+    "fields": {
+      "chill": 20.6,
+      "bar": 763.9,
+      "record_date": "2019-01-29 14:00:00",
+      "dew": 2.2,
+      "heat": 18.9,
+      "hum": 29,
+      "rain": 0,
+      "temp": 20.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 2,
+    "fields": {
+      "chill": 20.6,
+      "bar": 763.8,
+      "record_date": "2019-01-29 14:10:00",
+      "dew": 1.7,
+      "heat": 18.3,
+      "hum": 29,
+      "rain": 0,
+      "temp": 20.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 3,
+    "fields": {
+      "chill": 20.6,
+      "bar": 763.9,
+      "record_date": "2019-01-29 14:20:00",
+      "dew": 2.2,
+      "heat": 18.3,
+      "hum": 30,
+      "rain": 0,
+      "temp": 20.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 4,
+    "fields": {
+      "chill": 20,
+      "bar": 763.6,
+      "record_date": "2019-01-29 14:30:00",
+      "dew": 3.3,
+      "heat": 18.9,
+      "hum": 32,
+      "rain": 0,
+      "temp": 20.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 5,
+    "fields": {
+      "chill": 21.1,
+      "bar": 763.6,
+      "record_date": "2019-01-29 14:40:00",
+      "dew": 4.4,
+      "heat": 18.9,
+      "hum": 33,
+      "rain": 0,
+      "temp": 21.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 6,
+    "fields": {
+      "chill": 18.9,
+      "bar": 763.6,
+      "record_date": "2019-01-29 14:50:00",
+      "dew": 3.9,
+      "heat": 19.4,
+      "hum": 32,
+      "rain": 0,
+      "temp": 21.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 7,
+    "fields": {
+      "chill": 21.1,
+      "bar": 763.5,
+      "record_date": "2019-01-29 15:00:00",
+      "dew": 3.3,
+      "heat": 19.4,
+      "hum": 31,
+      "rain": 0,
+      "temp": 21.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 8,
+    "fields": {
+      "chill": 21.1,
+      "bar": 763.3,
+      "record_date": "2019-01-29 15:10:00",
+      "dew": 3.3,
+      "heat": 19.4,
+      "hum": 31,
+      "rain": 0,
+      "temp": 21.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 9,
+    "fields": {
+      "chill": 20.6,
+      "bar": 763.5,
+      "record_date": "2019-01-29 15:20:00",
+      "dew": 3.9,
+      "heat": 19.4,
+      "hum": 31,
+      "rain": 0,
+      "temp": 21.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 10,
+    "fields": {
+      "chill": 20.6,
+      "bar": 763.5,
+      "record_date": "2019-01-29 15:30:00",
+      "dew": 3.3,
+      "heat": 18.9,
+      "hum": 31,
+      "rain": 0,
+      "temp": 21.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 11,
+    "fields": {
+      "chill": 20.6,
+      "bar": 763.3,
+      "record_date": "2019-01-29 15:40:00",
+      "dew": 3.3,
+      "heat": 19.4,
+      "hum": 31,
+      "rain": 0,
+      "temp": 21.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 12,
+    "fields": {
+      "chill": 19.4,
+      "bar": 763.3,
+      "record_date": "2019-01-29 15:50:00",
+      "dew": 3.9,
+      "heat": 19.4,
+      "hum": 32,
+      "rain": 0,
+      "temp": 21.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 13,
+    "fields": {
+      "chill": 19.4,
+      "bar": 763.3,
+      "record_date": "2019-01-29 16:00:00",
+      "dew": 4.4,
+      "heat": 19.4,
+      "hum": 33,
+      "rain": 0,
+      "temp": 21.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 14,
+    "fields": {
+      "chill": 21.7,
+      "bar": 763.1,
+      "record_date": "2019-01-29 16:10:00",
+      "dew": 3.3,
+      "heat": 19.4,
+      "hum": 31,
+      "rain": 0,
+      "temp": 21.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 15,
+    "fields": {
+      "chill": 20,
+      "bar": 763.2,
+      "record_date": "2019-01-29 16:20:00",
+      "dew": 3.3,
+      "heat": 19.4,
+      "hum": 31,
+      "rain": 0,
+      "temp": 21.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 16,
+    "fields": {
+      "chill": 20,
+      "bar": 763.1,
+      "record_date": "2019-01-29 16:30:00",
+      "dew": 3.9,
+      "heat": 18.9,
+      "hum": 32,
+      "rain": 0,
+      "temp": 21.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 17,
+    "fields": {
+      "chill": 20,
+      "bar": 763.1,
+      "record_date": "2019-01-29 16:40:00",
+      "dew": 3.9,
+      "heat": 18.9,
+      "hum": 32,
+      "rain": 0,
+      "temp": 21.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 18,
+    "fields": {
+      "chill": 20,
+      "bar": 763.1,
+      "record_date": "2019-01-29 16:50:00",
+      "dew": 3.3,
+      "heat": 19.4,
+      "hum": 31,
+      "rain": 0,
+      "temp": 21.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 19,
+    "fields": {
+      "chill": 19.4,
+      "bar": 763,
+      "record_date": "2019-01-29 17:00:00",
+      "dew": 3.3,
+      "heat": 18.9,
+      "hum": 31,
+      "rain": 0,
+      "temp": 21,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 20,
+    "fields": {
+      "chill": 21.1,
+      "bar": 763.1,
+      "record_date": "2019-01-29 17:10:00",
+      "dew": 3.9,
+      "heat": 18.9,
+      "hum": 32,
+      "rain": 0,
+      "temp": 21,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 21,
+    "fields": {
+      "chill": 20.6,
+      "bar": 763.1,
+      "record_date": "2019-01-29 17:20:00",
+      "dew": 3.9,
+      "heat": 18.9,
+      "hum": 33,
+      "rain": 0,
+      "temp": 20.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 22,
+    "fields": {
+      "chill": 19.4,
+      "bar": 763,
+      "record_date": "2019-01-29 17:30:00",
+      "dew": 3.3,
+      "heat": 18.9,
+      "hum": 33,
+      "rain": 0,
+      "temp": 20.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 23,
+    "fields": {
+      "chill": 19.4,
+      "bar": 763,
+      "record_date": "2019-01-29 17:40:00",
+      "dew": 3.3,
+      "heat": 18.3,
+      "hum": 33,
+      "rain": 0,
+      "temp": 20.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 24,
+    "fields": {
+      "chill": 20,
+      "bar": 763,
+      "record_date": "2019-01-29 17:50:00",
+      "dew": 3.3,
+      "heat": 18.3,
+      "hum": 34,
+      "rain": 0,
+      "temp": 19.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 25,
+    "fields": {
+      "chill": 18.9,
+      "bar": 763.2,
+      "record_date": "2019-01-29 18:00:00",
+      "dew": 3.9,
+      "heat": 17.8,
+      "hum": 36,
+      "rain": 0,
+      "temp": 19.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 26,
+    "fields": {
+      "chill": 18.3,
+      "bar": 763.2,
+      "record_date": "2019-01-29 18:10:00",
+      "dew": 3.9,
+      "heat": 16.7,
+      "hum": 38,
+      "rain": 0,
+      "temp": 18.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 27,
+    "fields": {
+      "chill": 17.8,
+      "bar": 763.2,
+      "record_date": "2019-01-29 18:20:00",
+      "dew": 4.4,
+      "heat": 16.1,
+      "hum": 42,
+      "rain": 0,
+      "temp": 17.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 28,
+    "fields": {
+      "chill": 17.2,
+      "bar": 763.1,
+      "record_date": "2019-01-29 18:30:00",
+      "dew": 5,
+      "heat": 15.6,
+      "hum": 45,
+      "rain": 0,
+      "temp": 17,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 29,
+    "fields": {
+      "chill": 16.7,
+      "bar": 763.1,
+      "record_date": "2019-01-29 18:40:00",
+      "dew": 5,
+      "heat": 15,
+      "hum": 47,
+      "rain": 0,
+      "temp": 16.5,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 30,
+    "fields": {
+      "chill": 15.6,
+      "bar": 763.3,
+      "record_date": "2019-01-29 18:50:00",
+      "dew": 5.6,
+      "heat": 15,
+      "hum": 50,
+      "rain": 0,
+      "temp": 16.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 31,
+    "fields": {
+      "chill": 15.6,
+      "bar": 763.3,
+      "record_date": "2019-01-29 19:00:00",
+      "dew": 5.6,
+      "heat": 14.4,
+      "hum": 51,
+      "rain": 0,
+      "temp": 15.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 32,
+    "fields": {
+      "chill": 15,
+      "bar": 763.4,
+      "record_date": "2019-01-29 19:20:00",
+      "dew": 5.6,
+      "heat": 13.9,
+      "hum": 54,
+      "rain": 0,
+      "temp": 15,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 33,
+    "fields": {
+      "chill": 12.8,
+      "bar": 763.5,
+      "record_date": "2019-01-29 19:30:00",
+      "dew": 5.6,
+      "heat": 13.9,
+      "hum": 55,
+      "rain": 0,
+      "temp": 14.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 34,
+    "fields": {
+      "chill": 13.3,
+      "bar": 763.6,
+      "record_date": "2019-01-29 19:40:00",
+      "dew": 5.6,
+      "heat": 13.3,
+      "hum": 56,
+      "rain": 0,
+      "temp": 14.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 35,
+    "fields": {
+      "chill": 12.8,
+      "bar": 763.7,
+      "record_date": "2019-01-29 19:50:00",
+      "dew": 5.6,
+      "heat": 13.3,
+      "hum": 57,
+      "rain": 0,
+      "temp": 14.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 36,
+    "fields": {
+      "chill": 13.9,
+      "bar": 763.9,
+      "record_date": "2019-01-29 20:00:00",
+      "dew": 5.6,
+      "heat": 13.3,
+      "hum": 58,
+      "rain": 0,
+      "temp": 13.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 37,
+    "fields": {
+      "chill": 12.2,
+      "bar": 764,
+      "record_date": "2019-01-29 20:10:00",
+      "dew": 5.6,
+      "heat": 12.8,
+      "hum": 59,
+      "rain": 0,
+      "temp": 13.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 38,
+    "fields": {
+      "chill": 11.7,
+      "bar": 764.2,
+      "record_date": "2019-01-29 20:20:00",
+      "dew": 5.6,
+      "heat": 12.8,
+      "hum": 60,
+      "rain": 0,
+      "temp": 13.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 39,
+    "fields": {
+      "chill": 12.2,
+      "bar": 764.2,
+      "record_date": "2019-01-29 20:30:00",
+      "dew": 5,
+      "heat": 12.2,
+      "hum": 60,
+      "rain": 0,
+      "temp": 12.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 40,
+    "fields": {
+      "chill": 11.7,
+      "bar": 764.4,
+      "record_date": "2019-01-29 20:40:00",
+      "dew": 5.6,
+      "heat": 12.2,
+      "hum": 62,
+      "rain": 0,
+      "temp": 12.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 41,
+    "fields": {
+      "chill": 10.6,
+      "bar": 764.5,
+      "record_date": "2019-01-29 20:50:00",
+      "dew": 5,
+      "heat": 12.2,
+      "hum": 62,
+      "rain": 0,
+      "temp": 12.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 42,
+    "fields": {
+      "chill": 10,
+      "bar": 764.6,
+      "record_date": "2019-01-29 21:00:00",
+      "dew": 5,
+      "heat": 11.7,
+      "hum": 62,
+      "rain": 0,
+      "temp": 12.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 43,
+    "fields": {
+      "chill": 10.6,
+      "bar": 764.6,
+      "record_date": "2019-01-29 21:10:00",
+      "dew": 5,
+      "heat": 11.7,
+      "hum": 63,
+      "rain": 0,
+      "temp": 12.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 44,
+    "fields": {
+      "chill": 11.7,
+      "bar": 764.7,
+      "record_date": "2019-01-29 21:20:00",
+      "dew": 5,
+      "heat": 11.1,
+      "hum": 64,
+      "rain": 0,
+      "temp": 11.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 45,
+    "fields": {
+      "chill": 11.1,
+      "bar": 764.9,
+      "record_date": "2019-01-29 21:40:00",
+      "dew": 5,
+      "heat": 11.1,
+      "hum": 66,
+      "rain": 0,
+      "temp": 11.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 46,
+    "fields": {
+      "chill": 10,
+      "bar": 764.9,
+      "record_date": "2019-01-29 21:50:00",
+      "dew": 5,
+      "heat": 10.6,
+      "hum": 66,
+      "rain": 0,
+      "temp": 11.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 47,
+    "fields": {
+      "chill": 11.1,
+      "bar": 765.1,
+      "record_date": "2019-01-29 22:00:00",
+      "dew": 5,
+      "heat": 10.6,
+      "hum": 67,
+      "rain": 0,
+      "temp": 10.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 48,
+    "fields": {
+      "chill": 8.3,
+      "bar": 765.2,
+      "record_date": "2019-01-29 22:10:00",
+      "dew": 5,
+      "heat": 10.6,
+      "hum": 67,
+      "rain": 0,
+      "temp": 10.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 49,
+    "fields": {
+      "chill": 9.4,
+      "bar": 765.2,
+      "record_date": "2019-01-29 22:20:00",
+      "dew": 5,
+      "heat": 10.6,
+      "hum": 68,
+      "rain": 0,
+      "temp": 10.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 50,
+    "fields": {
+      "chill": 10.6,
+      "bar": 765.4,
+      "record_date": "2019-01-29 22:30:00",
+      "dew": 5,
+      "heat": 10.6,
+      "hum": 68,
+      "rain": 0,
+      "temp": 10.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 51,
+    "fields": {
+      "chill": 10.6,
+      "bar": 765.5,
+      "record_date": "2019-01-29 22:40:00",
+      "dew": 5,
+      "heat": 10,
+      "hum": 68,
+      "rain": 0,
+      "temp": 10.5,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 52,
+    "fields": {
+      "chill": 7.8,
+      "bar": 765.6,
+      "record_date": "2019-01-29 22:50:00",
+      "dew": 5,
+      "heat": 10,
+      "hum": 69,
+      "rain": 0,
+      "temp": 10.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 53,
+    "fields": {
+      "chill": 9.4,
+      "bar": 765.7,
+      "record_date": "2019-01-29 23:00:00",
+      "dew": 5,
+      "heat": 10,
+      "hum": 70,
+      "rain": 0,
+      "temp": 10.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 54,
+    "fields": {
+      "chill": 8.3,
+      "bar": 765.6,
+      "record_date": "2019-01-29 23:10:00",
+      "dew": 5,
+      "heat": 9.4,
+      "hum": 71,
+      "rain": 0,
+      "temp": 9.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 55,
+    "fields": {
+      "chill": 9.4,
+      "bar": 765.4,
+      "record_date": "2019-01-29 23:20:00",
+      "dew": 5,
+      "heat": 9.4,
+      "hum": 72,
+      "rain": 0,
+      "temp": 9.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 56,
+    "fields": {
+      "chill": 8.9,
+      "bar": 765.6,
+      "record_date": "2019-01-29 23:30:00",
+      "dew": 5,
+      "heat": 9.4,
+      "hum": 73,
+      "rain": 0,
+      "temp": 9.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 57,
+    "fields": {
+      "chill": 8.9,
+      "bar": 765.5,
+      "record_date": "2019-01-29 23:40:00",
+      "dew": 5,
+      "heat": 9.4,
+      "hum": 74,
+      "rain": 0,
+      "temp": 9.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 58,
+    "fields": {
+      "chill": 8.9,
+      "bar": 765.6,
+      "record_date": "2019-01-29 23:50:00",
+      "dew": 5,
+      "heat": 9.4,
+      "hum": 75,
+      "rain": 0,
+      "temp": 9.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 59,
+    "fields": {
+      "chill": 9.4,
+      "bar": 765.5,
+      "record_date": "2019-01-30 00:00:00",
+      "dew": 5.6,
+      "heat": 9.4,
+      "hum": 76,
+      "rain": 0,
+      "temp": 9.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 60,
+    "fields": {
+      "chill": 8.9,
+      "bar": 765.5,
+      "record_date": "2019-01-30 00:10:00",
+      "dew": 5.6,
+      "heat": 8.9,
+      "hum": 77,
+      "rain": 0,
+      "temp": 9.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 61,
+    "fields": {
+      "chill": 8.9,
+      "bar": 765.5,
+      "record_date": "2019-01-30 00:20:00",
+      "dew": 5,
+      "heat": 8.9,
+      "hum": 78,
+      "rain": 0,
+      "temp": 8.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 62,
+    "fields": {
+      "chill": 8.3,
+      "bar": 765.4,
+      "record_date": "2019-01-30 00:30:00",
+      "dew": 5,
+      "heat": 8.3,
+      "hum": 79,
+      "rain": 0,
+      "temp": 8.5,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 63,
+    "fields": {
+      "chill": 8.3,
+      "bar": 765.4,
+      "record_date": "2019-01-30 00:40:00",
+      "dew": 5,
+      "heat": 8.3,
+      "hum": 80,
+      "rain": 0,
+      "temp": 8.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 64,
+    "fields": {
+      "chill": 8.3,
+      "bar": 765.4,
+      "record_date": "2019-01-30 00:50:00",
+      "dew": 5,
+      "heat": 8.3,
+      "hum": 81,
+      "rain": 0,
+      "temp": 8.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 65,
+    "fields": {
+      "chill": 7.8,
+      "bar": 765.4,
+      "record_date": "2019-01-30 01:00:00",
+      "dew": 5,
+      "heat": 7.8,
+      "hum": 82,
+      "rain": 0,
+      "temp": 8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 66,
+    "fields": {
+      "chill": 8.3,
+      "bar": 765.4,
+      "record_date": "2019-01-30 01:10:00",
+      "dew": 5.6,
+      "heat": 8.3,
+      "hum": 82,
+      "rain": 0,
+      "temp": 8.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 67,
+    "fields": {
+      "chill": 7.8,
+      "bar": 765.5,
+      "record_date": "2019-01-30 01:20:00",
+      "dew": 5.6,
+      "heat": 8.3,
+      "hum": 82,
+      "rain": 0,
+      "temp": 8.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 68,
+    "fields": {
+      "chill": 7.8,
+      "bar": 765.5,
+      "record_date": "2019-01-30 01:30:00",
+      "dew": 5,
+      "heat": 7.8,
+      "hum": 82,
+      "rain": 0,
+      "temp": 8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 69,
+    "fields": {
+      "chill": 7.2,
+      "bar": 765.5,
+      "record_date": "2019-01-30 01:40:00",
+      "dew": 5,
+      "heat": 7.2,
+      "hum": 83,
+      "rain": 0,
+      "temp": 7.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 70,
+    "fields": {
+      "chill": 7.2,
+      "bar": 765.6,
+      "record_date": "2019-01-30 01:50:00",
+      "dew": 5,
+      "heat": 7.2,
+      "hum": 85,
+      "rain": 0,
+      "temp": 7.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 71,
+    "fields": {
+      "chill": 7.2,
+      "bar": 765.6,
+      "record_date": "2019-01-30 02:00:00",
+      "dew": 4.4,
+      "heat": 7.2,
+      "hum": 85,
+      "rain": 0,
+      "temp": 7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 72,
+    "fields": {
+      "chill": 6.7,
+      "bar": 765.6,
+      "record_date": "2019-01-30 02:10:00",
+      "dew": 4.4,
+      "heat": 6.7,
+      "hum": 86,
+      "rain": 0,
+      "temp": 6.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 73,
+    "fields": {
+      "chill": 6.1,
+      "bar": 765.7,
+      "record_date": "2019-01-30 02:20:00",
+      "dew": 4.4,
+      "heat": 6.1,
+      "hum": 87,
+      "rain": 0,
+      "temp": 6.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 74,
+    "fields": {
+      "chill": 6.1,
+      "bar": 765.7,
+      "record_date": "2019-01-30 02:30:00",
+      "dew": 4.4,
+      "heat": 6.1,
+      "hum": 89,
+      "rain": 0,
+      "temp": 6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 75,
+    "fields": {
+      "chill": 6.1,
+      "bar": 765.7,
+      "record_date": "2019-01-30 02:40:00",
+      "dew": 4.4,
+      "heat": 6.1,
+      "hum": 89,
+      "rain": 0,
+      "temp": 5.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 76,
+    "fields": {
+      "chill": 5.6,
+      "bar": 765.7,
+      "record_date": "2019-01-30 02:50:00",
+      "dew": 4.4,
+      "heat": 5.6,
+      "hum": 90,
+      "rain": 0,
+      "temp": 5.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 77,
+    "fields": {
+      "chill": 5.6,
+      "bar": 765.6,
+      "record_date": "2019-01-30 03:00:00",
+      "dew": 4.4,
+      "heat": 5.6,
+      "hum": 90,
+      "rain": 0,
+      "temp": 5.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 78,
+    "fields": {
+      "chill": 6.1,
+      "bar": 765.6,
+      "record_date": "2019-01-30 03:10:00",
+      "dew": 5,
+      "heat": 6.1,
+      "hum": 91,
+      "rain": 0,
+      "temp": 6.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 79,
+    "fields": {
+      "chill": 6.7,
+      "bar": 765.5,
+      "record_date": "2019-01-30 03:20:00",
+      "dew": 5.6,
+      "heat": 6.7,
+      "hum": 91,
+      "rain": 0,
+      "temp": 6.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 80,
+    "fields": {
+      "chill": 6.7,
+      "bar": 765.4,
+      "record_date": "2019-01-30 03:40:00",
+      "dew": 5,
+      "heat": 6.7,
+      "hum": 90,
+      "rain": 0,
+      "temp": 6.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 81,
+    "fields": {
+      "chill": 6.7,
+      "bar": 765.4,
+      "record_date": "2019-01-30 03:50:00",
+      "dew": 5,
+      "heat": 6.7,
+      "hum": 90,
+      "rain": 0,
+      "temp": 6.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 82,
+    "fields": {
+      "chill": 6.1,
+      "bar": 765.4,
+      "record_date": "2019-01-30 04:00:00",
+      "dew": 5,
+      "heat": 6.1,
+      "hum": 91,
+      "rain": 0,
+      "temp": 6.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 83,
+    "fields": {
+      "chill": 5.6,
+      "bar": 765.5,
+      "record_date": "2019-01-30 04:10:00",
+      "dew": 4.4,
+      "heat": 5.6,
+      "hum": 90,
+      "rain": 0,
+      "temp": 5.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 84,
+    "fields": {
+      "chill": 5.6,
+      "bar": 765.5,
+      "record_date": "2019-01-30 04:20:00",
+      "dew": 4.4,
+      "heat": 5.6,
+      "hum": 91,
+      "rain": 0,
+      "temp": 5.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 85,
+    "fields": {
+      "chill": 6.1,
+      "bar": 765.4,
+      "record_date": "2019-01-30 04:30:00",
+      "dew": 5,
+      "heat": 6.1,
+      "hum": 92,
+      "rain": 0,
+      "temp": 6.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 86,
+    "fields": {
+      "chill": 5.6,
+      "bar": 765.5,
+      "record_date": "2019-01-30 04:40:00",
+      "dew": 4.4,
+      "heat": 5.6,
+      "hum": 91,
+      "rain": 0,
+      "temp": 5.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 87,
+    "fields": {
+      "chill": 5.6,
+      "bar": 765.5,
+      "record_date": "2019-01-30 04:50:00",
+      "dew": 3.9,
+      "heat": 5.6,
+      "hum": 90,
+      "rain": 0,
+      "temp": 5.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 88,
+    "fields": {
+      "chill": 5,
+      "bar": 765.7,
+      "record_date": "2019-01-30 05:00:00",
+      "dew": 3.9,
+      "heat": 5,
+      "hum": 90,
+      "rain": 0,
+      "temp": 5.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 89,
+    "fields": {
+      "chill": 3.9,
+      "bar": 765.9,
+      "record_date": "2019-01-30 05:10:00",
+      "dew": 2.8,
+      "heat": 3.9,
+      "hum": 90,
+      "rain": 0,
+      "temp": 4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 90,
+    "fields": {
+      "chill": 5,
+      "bar": 766.2,
+      "record_date": "2019-01-30 05:30:00",
+      "dew": 3.3,
+      "heat": 5,
+      "hum": 89,
+      "rain": 0,
+      "temp": 5.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 91,
+    "fields": {
+      "chill": 5,
+      "bar": 766.3,
+      "record_date": "2019-01-30 05:40:00",
+      "dew": 3.3,
+      "heat": 5,
+      "hum": 89,
+      "rain": 0,
+      "temp": 5.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 92,
+    "fields": {
+      "chill": 5.6,
+      "bar": 766.5,
+      "record_date": "2019-01-30 05:50:00",
+      "dew": 3.9,
+      "heat": 5.6,
+      "hum": 89,
+      "rain": 0,
+      "temp": 5.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 93,
+    "fields": {
+      "chill": 5.6,
+      "bar": 766.6,
+      "record_date": "2019-01-30 06:00:00",
+      "dew": 3.9,
+      "heat": 5.6,
+      "hum": 88,
+      "rain": 0,
+      "temp": 5.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 94,
+    "fields": {
+      "chill": 5,
+      "bar": 766.9,
+      "record_date": "2019-01-30 06:10:00",
+      "dew": 3.9,
+      "heat": 5.6,
+      "hum": 88,
+      "rain": 0,
+      "temp": 5.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 95,
+    "fields": {
+      "chill": 4.4,
+      "bar": 767.1,
+      "record_date": "2019-01-30 06:20:00",
+      "dew": 3.3,
+      "heat": 5,
+      "hum": 86,
+      "rain": 0,
+      "temp": 5.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 96,
+    "fields": {
+      "chill": 5,
+      "bar": 767.3,
+      "record_date": "2019-01-30 06:30:00",
+      "dew": 2.8,
+      "heat": 5,
+      "hum": 85,
+      "rain": 0,
+      "temp": 4.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 97,
+    "fields": {
+      "chill": 3.9,
+      "bar": 767.5,
+      "record_date": "2019-01-30 06:40:00",
+      "dew": 2.8,
+      "heat": 4.4,
+      "hum": 86,
+      "rain": 0,
+      "temp": 4.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 98,
+    "fields": {
+      "chill": 4.4,
+      "bar": 767.6,
+      "record_date": "2019-01-30 06:50:00",
+      "dew": 2.2,
+      "heat": 4.4,
+      "hum": 86,
+      "rain": 0,
+      "temp": 4.5,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 99,
+    "fields": {
+      "chill": 4.4,
+      "bar": 767.8,
+      "record_date": "2019-01-30 07:00:00",
+      "dew": 2.2,
+      "heat": 4.4,
+      "hum": 86,
+      "rain": 0,
+      "temp": 4.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 100,
+    "fields": {
+      "chill": 4.4,
+      "bar": 767.9,
+      "record_date": "2019-01-30 07:10:00",
+      "dew": 2.2,
+      "heat": 4.4,
+      "hum": 87,
+      "rain": 0,
+      "temp": 4.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 101,
+    "fields": {
+      "chill": 4.4,
+      "bar": 768.1,
+      "record_date": "2019-01-30 07:20:00",
+      "dew": 2.2,
+      "heat": 4.4,
+      "hum": 87,
+      "rain": 0,
+      "temp": 4.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 102,
+    "fields": {
+      "chill": 4.4,
+      "bar": 768.1,
+      "record_date": "2019-01-30 07:30:00",
+      "dew": 2.2,
+      "heat": 4.4,
+      "hum": 87,
+      "rain": 0,
+      "temp": 4.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 103,
+    "fields": {
+      "chill": 4.4,
+      "bar": 768.2,
+      "record_date": "2019-01-30 07:40:00",
+      "dew": 2.2,
+      "heat": 4.4,
+      "hum": 85,
+      "rain": 0,
+      "temp": 4.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 104,
+    "fields": {
+      "chill": 4.4,
+      "bar": 768.3,
+      "record_date": "2019-01-30 07:50:00",
+      "dew": 2.8,
+      "heat": 4.4,
+      "hum": 86,
+      "rain": 0,
+      "temp": 4.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 105,
+    "fields": {
+      "chill": 4.4,
+      "bar": 768.4,
+      "record_date": "2019-01-30 08:00:00",
+      "dew": 2.8,
+      "heat": 5,
+      "hum": 85,
+      "rain": 0,
+      "temp": 5.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 106,
+    "fields": {
+      "chill": 5.6,
+      "bar": 768.7,
+      "record_date": "2019-01-30 08:10:00",
+      "dew": 3.3,
+      "heat": 5.6,
+      "hum": 85,
+      "rain": 0,
+      "temp": 5.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 107,
+    "fields": {
+      "chill": 6.1,
+      "bar": 768.8,
+      "record_date": "2019-01-30 08:20:00",
+      "dew": 3.9,
+      "heat": 6.1,
+      "hum": 84,
+      "rain": 0,
+      "temp": 6.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 108,
+    "fields": {
+      "chill": 6.7,
+      "bar": 769.1,
+      "record_date": "2019-01-30 08:30:00",
+      "dew": 4.4,
+      "heat": 7.2,
+      "hum": 83,
+      "rain": 0,
+      "temp": 6.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 109,
+    "fields": {
+      "chill": 6.7,
+      "bar": 769.1,
+      "record_date": "2019-01-30 08:40:00",
+      "dew": 4.4,
+      "heat": 7.8,
+      "hum": 81,
+      "rain": 0,
+      "temp": 7.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 110,
+    "fields": {
+      "chill": 7.8,
+      "bar": 769.3,
+      "record_date": "2019-01-30 08:50:00",
+      "dew": 5,
+      "heat": 8.3,
+      "hum": 80,
+      "rain": 0,
+      "temp": 8.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 111,
+    "fields": {
+      "chill": 7.8,
+      "bar": 769.6,
+      "record_date": "2019-01-30 09:10:00",
+      "dew": 5.6,
+      "heat": 8.9,
+      "hum": 77,
+      "rain": 0,
+      "temp": 9.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 112,
+    "fields": {
+      "chill": 10.6,
+      "bar": 769.8,
+      "record_date": "2019-01-30 09:30:00",
+      "dew": 6.1,
+      "heat": 10,
+      "hum": 74,
+      "rain": 0,
+      "temp": 10.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 113,
+    "fields": {
+      "chill": 11.1,
+      "bar": 769.8,
+      "record_date": "2019-01-30 09:40:00",
+      "dew": 6.1,
+      "heat": 10.6,
+      "hum": 72,
+      "rain": 0,
+      "temp": 11,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 114,
+    "fields": {
+      "chill": 11.7,
+      "bar": 769.9,
+      "record_date": "2019-01-30 09:50:00",
+      "dew": 6.7,
+      "heat": 11.1,
+      "hum": 71,
+      "rain": 0,
+      "temp": 11.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 115,
+    "fields": {
+      "chill": 12.2,
+      "bar": 769.8,
+      "record_date": "2019-01-30 10:00:00",
+      "dew": 6.7,
+      "heat": 11.7,
+      "hum": 70,
+      "rain": 0,
+      "temp": 12.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 116,
+    "fields": {
+      "chill": 12.8,
+      "bar": 769.7,
+      "record_date": "2019-01-30 10:10:00",
+      "dew": 6.7,
+      "heat": 12.2,
+      "hum": 69,
+      "rain": 0,
+      "temp": 12.5,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 117,
+    "fields": {
+      "chill": 11.7,
+      "bar": 769.6,
+      "record_date": "2019-01-30 10:20:00",
+      "dew": 6.7,
+      "heat": 12.8,
+      "hum": 67,
+      "rain": 0,
+      "temp": 12.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 118,
+    "fields": {
+      "chill": 13.3,
+      "bar": 769.6,
+      "record_date": "2019-01-30 10:30:00",
+      "dew": 7.2,
+      "heat": 12.8,
+      "hum": 66,
+      "rain": 0,
+      "temp": 13.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 119,
+    "fields": {
+      "chill": 13.3,
+      "bar": 769.3,
+      "record_date": "2019-01-30 10:40:00",
+      "dew": 6.7,
+      "heat": 12.8,
+      "hum": 65,
+      "rain": 0,
+      "temp": 13.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 120,
+    "fields": {
+      "chill": 15,
+      "bar": 769.2,
+      "record_date": "2019-01-30 11:00:00",
+      "dew": 5,
+      "heat": 13.9,
+      "hum": 53,
+      "rain": 0,
+      "temp": 14.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 121,
+    "fields": {
+      "chill": 14.4,
+      "bar": 769.1,
+      "record_date": "2019-01-30 11:10:00",
+      "dew": 5,
+      "heat": 14.4,
+      "hum": 52,
+      "rain": 0,
+      "temp": 15.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 122,
+    "fields": {
+      "chill": 13.9,
+      "bar": 769,
+      "record_date": "2019-01-30 11:20:00",
+      "dew": 1.7,
+      "heat": 14.4,
+      "hum": 39,
+      "rain": 0,
+      "temp": 16,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 123,
+    "fields": {
+      "chill": 15,
+      "bar": 769,
+      "record_date": "2019-01-30 11:30:00",
+      "dew": 0,
+      "heat": 14.4,
+      "hum": 33,
+      "rain": 0,
+      "temp": 16.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 124,
+    "fields": {
+      "chill": 15,
+      "bar": 769,
+      "record_date": "2019-01-30 11:40:00",
+      "dew": 1.1,
+      "heat": 15,
+      "hum": 35,
+      "rain": 0,
+      "temp": 16.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 125,
+    "fields": {
+      "chill": 16.1,
+      "bar": 769,
+      "record_date": "2019-01-30 11:50:00",
+      "dew": 0.6,
+      "heat": 15,
+      "hum": 33,
+      "rain": 0,
+      "temp": 16.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 126,
+    "fields": {
+      "chill": 15,
+      "bar": 769,
+      "record_date": "2019-01-30 12:00:00",
+      "dew": 3.3,
+      "heat": 15,
+      "hum": 40,
+      "rain": 0,
+      "temp": 16.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 127,
+    "fields": {
+      "chill": 16.1,
+      "bar": 768.8,
+      "record_date": "2019-01-30 12:10:00",
+      "dew": 2.8,
+      "heat": 15.6,
+      "hum": 39,
+      "rain": 0,
+      "temp": 17.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 128,
+    "fields": {
+      "chill": 15,
+      "bar": 768.7,
+      "record_date": "2019-01-30 12:20:00",
+      "dew": 2.8,
+      "heat": 15.6,
+      "hum": 39,
+      "rain": 0,
+      "temp": 17.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 129,
+    "fields": {
+      "chill": 17.2,
+      "bar": 768.7,
+      "record_date": "2019-01-30 12:30:00",
+      "dew": 3.3,
+      "heat": 15.6,
+      "hum": 39,
+      "rain": 0,
+      "temp": 17.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 130,
+    "fields": {
+      "chill": 16.1,
+      "bar": 768.5,
+      "record_date": "2019-01-30 12:40:00",
+      "dew": 2.8,
+      "heat": 16.1,
+      "hum": 37,
+      "rain": 0,
+      "temp": 17.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 131,
+    "fields": {
+      "chill": 17.8,
+      "bar": 768.4,
+      "record_date": "2019-01-30 12:50:00",
+      "dew": 2.2,
+      "heat": 15.6,
+      "hum": 36,
+      "rain": 0,
+      "temp": 17.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 132,
+    "fields": {
+      "chill": 16.7,
+      "bar": 768.3,
+      "record_date": "2019-01-30 13:00:00",
+      "dew": 0.6,
+      "heat": 15.6,
+      "hum": 32,
+      "rain": 0,
+      "temp": 17.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 133,
+    "fields": {
+      "chill": 17.8,
+      "bar": 768.3,
+      "record_date": "2019-01-30 13:10:00",
+      "dew": 1.7,
+      "heat": 15.6,
+      "hum": 34,
+      "rain": 0,
+      "temp": 17.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 134,
+    "fields": {
+      "chill": 16.7,
+      "bar": 768.1,
+      "record_date": "2019-01-30 13:20:00",
+      "dew": 1.1,
+      "heat": 16.1,
+      "hum": 32,
+      "rain": 0,
+      "temp": 18.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 135,
+    "fields": {
+      "chill": 18.3,
+      "bar": 768,
+      "record_date": "2019-01-30 13:30:00",
+      "dew": 2.2,
+      "heat": 16.1,
+      "hum": 34,
+      "rain": 0,
+      "temp": 18.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 136,
+    "fields": {
+      "chill": 15.6,
+      "bar": 767.8,
+      "record_date": "2019-01-30 13:40:00",
+      "dew": 1.1,
+      "heat": 16.1,
+      "hum": 32,
+      "rain": 0,
+      "temp": 18.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 137,
+    "fields": {
+      "chill": 17.8,
+      "bar": 767.8,
+      "record_date": "2019-01-30 13:50:00",
+      "dew": 0.6,
+      "heat": 16.1,
+      "hum": 30,
+      "rain": 0,
+      "temp": 18.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 138,
+    "fields": {
+      "chill": 18.3,
+      "bar": 767.7,
+      "record_date": "2019-01-30 14:00:00",
+      "dew": 1.1,
+      "heat": 16.1,
+      "hum": 32,
+      "rain": 0,
+      "temp": 18.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 139,
+    "fields": {
+      "chill": 16.7,
+      "bar": 767.8,
+      "record_date": "2019-01-30 14:10:00",
+      "dew": 2.2,
+      "heat": 16.7,
+      "hum": 34,
+      "rain": 0,
+      "temp": 18.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 140,
+    "fields": {
+      "chill": 17.2,
+      "bar": 767.5,
+      "record_date": "2019-01-30 14:20:00",
+      "dew": 1.7,
+      "heat": 16.1,
+      "hum": 33,
+      "rain": 0,
+      "temp": 18.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 141,
+    "fields": {
+      "chill": 17.8,
+      "bar": 767.5,
+      "record_date": "2019-01-30 14:30:00",
+      "dew": 2.2,
+      "heat": 16.7,
+      "hum": 33,
+      "rain": 0,
+      "temp": 18.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 142,
+    "fields": {
+      "chill": 17.8,
+      "bar": 767.3,
+      "record_date": "2019-01-30 14:40:00",
+      "dew": 1.7,
+      "heat": 16.7,
+      "hum": 32,
+      "rain": 0,
+      "temp": 18.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 143,
+    "fields": {
+      "chill": 17.8,
+      "bar": 767.2,
+      "record_date": "2019-01-30 14:50:00",
+      "dew": 1.1,
+      "heat": 16.7,
+      "hum": 30,
+      "rain": 0,
+      "temp": 18.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 144,
+    "fields": {
+      "chill": 18.9,
+      "bar": 767.2,
+      "record_date": "2019-01-30 15:00:00",
+      "dew": 0.6,
+      "heat": 16.7,
+      "hum": 29,
+      "rain": 0,
+      "temp": 18.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 145,
+    "fields": {
+      "chill": 17.2,
+      "bar": 767.2,
+      "record_date": "2019-01-30 15:10:00",
+      "dew": 0,
+      "heat": 16.7,
+      "hum": 28,
+      "rain": 0,
+      "temp": 18.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 146,
+    "fields": {
+      "chill": 18.3,
+      "bar": 767.2,
+      "record_date": "2019-01-30 15:20:00",
+      "dew": 0.6,
+      "heat": 16.7,
+      "hum": 29,
+      "rain": 0,
+      "temp": 18.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 147,
+    "fields": {
+      "chill": 19.4,
+      "bar": 767.2,
+      "record_date": "2019-01-30 15:30:00",
+      "dew": 0,
+      "heat": 17.2,
+      "hum": 28,
+      "rain": 0,
+      "temp": 19.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 148,
+    "fields": {
+      "chill": 18.3,
+      "bar": 767.2,
+      "record_date": "2019-01-30 15:40:00",
+      "dew": 1.1,
+      "heat": 16.7,
+      "hum": 30,
+      "rain": 0,
+      "temp": 18.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 149,
+    "fields": {
+      "chill": 18.3,
+      "bar": 767.3,
+      "record_date": "2019-01-30 15:50:00",
+      "dew": 1.1,
+      "heat": 16.7,
+      "hum": 31,
+      "rain": 0,
+      "temp": 18.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 150,
+    "fields": {
+      "chill": 17.2,
+      "bar": 767.2,
+      "record_date": "2019-01-30 16:00:00",
+      "dew": 1.7,
+      "heat": 16.7,
+      "hum": 32,
+      "rain": 0,
+      "temp": 18.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 151,
+    "fields": {
+      "chill": 16.7,
+      "bar": 767.3,
+      "record_date": "2019-01-30 16:10:00",
+      "dew": 1.7,
+      "heat": 16.7,
+      "hum": 32,
+      "rain": 0,
+      "temp": 18.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 152,
+    "fields": {
+      "chill": 17.8,
+      "bar": 767.3,
+      "record_date": "2019-01-30 16:20:00",
+      "dew": 2.2,
+      "heat": 16.7,
+      "hum": 33,
+      "rain": 0,
+      "temp": 18.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 153,
+    "fields": {
+      "chill": 17.8,
+      "bar": 767.2,
+      "record_date": "2019-01-30 16:40:00",
+      "dew": 1.1,
+      "heat": 16.7,
+      "hum": 31,
+      "rain": 0,
+      "temp": 18.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 154,
+    "fields": {
+      "chill": 16.7,
+      "bar": 767.3,
+      "record_date": "2019-01-30 16:50:00",
+      "dew": 1.7,
+      "heat": 16.7,
+      "hum": 32,
+      "rain": 0,
+      "temp": 18.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 155,
+    "fields": {
+      "chill": 17.8,
+      "bar": 767.2,
+      "record_date": "2019-01-30 17:00:00",
+      "dew": 1.1,
+      "heat": 16.7,
+      "hum": 31,
+      "rain": 0,
+      "temp": 18.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 156,
+    "fields": {
+      "chill": 17.2,
+      "bar": 767.3,
+      "record_date": "2019-01-30 17:10:00",
+      "dew": 2.2,
+      "heat": 16.7,
+      "hum": 33,
+      "rain": 0,
+      "temp": 18.7,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 157,
+    "fields": {
+      "chill": 17.8,
+      "bar": 767.4,
+      "record_date": "2019-01-30 17:20:00",
+      "dew": 2.8,
+      "heat": 16.7,
+      "hum": 35,
+      "rain": 0,
+      "temp": 18.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 158,
+    "fields": {
+      "chill": 17.2,
+      "bar": 767.4,
+      "record_date": "2019-01-30 17:30:00",
+      "dew": 1.1,
+      "heat": 16.1,
+      "hum": 32,
+      "rain": 0,
+      "temp": 18.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 159,
+    "fields": {
+      "chill": 17.8,
+      "bar": 767.6,
+      "record_date": "2019-01-30 17:40:00",
+      "dew": 1.1,
+      "heat": 16.1,
+      "hum": 32,
+      "rain": 0,
+      "temp": 18.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 160,
+    "fields": {
+      "chill": 17.8,
+      "bar": 767.8,
+      "record_date": "2019-01-30 18:00:00",
+      "dew": 1.7,
+      "heat": 15.6,
+      "hum": 35,
+      "rain": 0,
+      "temp": 17.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 161,
+    "fields": {
+      "chill": 17.2,
+      "bar": 767.8,
+      "record_date": "2019-01-30 18:10:00",
+      "dew": 1.7,
+      "heat": 15,
+      "hum": 36,
+      "rain": 0,
+      "temp": 17.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 162,
+    "fields": {
+      "chill": 16.7,
+      "bar": 767.8,
+      "record_date": "2019-01-30 18:20:00",
+      "dew": 1.7,
+      "heat": 15,
+      "hum": 37,
+      "rain": 0,
+      "temp": 16.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 163,
+    "fields": {
+      "chill": 16.7,
+      "bar": 767.8,
+      "record_date": "2019-01-30 18:30:00",
+      "dew": 2.2,
+      "heat": 15,
+      "hum": 39,
+      "rain": 0,
+      "temp": 16.5,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 164,
+    "fields": {
+      "chill": 16.1,
+      "bar": 767.8,
+      "record_date": "2019-01-30 18:40:00",
+      "dew": 2.2,
+      "heat": 14.4,
+      "hum": 39,
+      "rain": 0,
+      "temp": 16.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 165,
+    "fields": {
+      "chill": 16.1,
+      "bar": 768,
+      "record_date": "2019-01-30 18:50:00",
+      "dew": 2.2,
+      "heat": 14.4,
+      "hum": 40,
+      "rain": 0,
+      "temp": 15.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 166,
+    "fields": {
+      "chill": 15.6,
+      "bar": 768,
+      "record_date": "2019-01-30 19:00:00",
+      "dew": 2.2,
+      "heat": 13.9,
+      "hum": 41,
+      "rain": 0,
+      "temp": 15.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 167,
+    "fields": {
+      "chill": 15,
+      "bar": 768.2,
+      "record_date": "2019-01-30 19:10:00",
+      "dew": 2.2,
+      "heat": 13.3,
+      "hum": 42,
+      "rain": 0,
+      "temp": 15.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 168,
+    "fields": {
+      "chill": 15,
+      "bar": 768.2,
+      "record_date": "2019-01-30 19:20:00",
+      "dew": 2.2,
+      "heat": 13.3,
+      "hum": 42,
+      "rain": 0,
+      "temp": 15.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 169,
+    "fields": {
+      "chill": 15,
+      "bar": 768.4,
+      "record_date": "2019-01-30 19:30:00",
+      "dew": 1.7,
+      "heat": 13.3,
+      "hum": 42,
+      "rain": 0,
+      "temp": 14.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 170,
+    "fields": {
+      "chill": 15,
+      "bar": 768.5,
+      "record_date": "2019-01-30 19:40:00",
+      "dew": 1.7,
+      "heat": 13.3,
+      "hum": 42,
+      "rain": 0,
+      "temp": 14.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 171,
+    "fields": {
+      "chill": 15,
+      "bar": 768.5,
+      "record_date": "2019-01-30 19:50:00",
+      "dew": 1.1,
+      "heat": 13.3,
+      "hum": 39,
+      "rain": 0,
+      "temp": 14.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 172,
+    "fields": {
+      "chill": 14.4,
+      "bar": 768.5,
+      "record_date": "2019-01-30 20:10:00",
+      "dew": 1.7,
+      "heat": 12.8,
+      "hum": 43,
+      "rain": 0,
+      "temp": 14.5,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 173,
+    "fields": {
+      "chill": 14.4,
+      "bar": 768.6,
+      "record_date": "2019-01-30 20:20:00",
+      "dew": 1.7,
+      "heat": 13.3,
+      "hum": 42,
+      "rain": 0,
+      "temp": 14.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 174,
+    "fields": {
+      "chill": 14.4,
+      "bar": 768.9,
+      "record_date": "2019-01-30 20:30:00",
+      "dew": 1.1,
+      "heat": 12.8,
+      "hum": 41,
+      "rain": 0,
+      "temp": 14.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 175,
+    "fields": {
+      "chill": 14.4,
+      "bar": 769,
+      "record_date": "2019-01-30 20:40:00",
+      "dew": 1.1,
+      "heat": 12.8,
+      "hum": 41,
+      "rain": 0,
+      "temp": 14.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 176,
+    "fields": {
+      "chill": 14.4,
+      "bar": 769.1,
+      "record_date": "2019-01-30 21:00:00",
+      "dew": 1.1,
+      "heat": 12.8,
+      "hum": 41,
+      "rain": 0,
+      "temp": 14.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 177,
+    "fields": {
+      "chill": 13.9,
+      "bar": 769.2,
+      "record_date": "2019-01-30 21:10:00",
+      "dew": 1.1,
+      "heat": 12.8,
+      "hum": 42,
+      "rain": 0,
+      "temp": 14.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 178,
+    "fields": {
+      "chill": 13.9,
+      "bar": 769.3,
+      "record_date": "2019-01-30 21:20:00",
+      "dew": 0.6,
+      "heat": 12.8,
+      "hum": 41,
+      "rain": 0,
+      "temp": 13.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 179,
+    "fields": {
+      "chill": 13.9,
+      "bar": 769.5,
+      "record_date": "2019-01-30 21:30:00",
+      "dew": 0.6,
+      "heat": 12.2,
+      "hum": 41,
+      "rain": 0,
+      "temp": 13.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 180,
+    "fields": {
+      "chill": 13.9,
+      "bar": 769.6,
+      "record_date": "2019-01-30 21:40:00",
+      "dew": 1.1,
+      "heat": 12.8,
+      "hum": 42,
+      "rain": 0,
+      "temp": 13.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 181,
+    "fields": {
+      "chill": 13.9,
+      "bar": 769.7,
+      "record_date": "2019-01-30 21:50:00",
+      "dew": 1.1,
+      "heat": 12.8,
+      "hum": 42,
+      "rain": 0,
+      "temp": 13.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 182,
+    "fields": {
+      "chill": 14.4,
+      "bar": 769.6,
+      "record_date": "2019-01-30 22:00:00",
+      "dew": 1.1,
+      "heat": 12.8,
+      "hum": 40,
+      "rain": 0,
+      "temp": 14.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 183,
+    "fields": {
+      "chill": 14.4,
+      "bar": 769.7,
+      "record_date": "2019-01-30 22:10:00",
+      "dew": 0.6,
+      "heat": 12.8,
+      "hum": 39,
+      "rain": 0,
+      "temp": 14.5,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 184,
+    "fields": {
+      "chill": 13.3,
+      "bar": 769.9,
+      "record_date": "2019-01-30 22:20:00",
+      "dew": 1.1,
+      "heat": 12.2,
+      "hum": 43,
+      "rain": 0,
+      "temp": 13.3,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 185,
+    "fields": {
+      "chill": 12.8,
+      "bar": 769.9,
+      "record_date": "2019-01-30 22:30:00",
+      "dew": 0.6,
+      "heat": 11.7,
+      "hum": 45,
+      "rain": 0,
+      "temp": 12.5,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 186,
+    "fields": {
+      "chill": 12.2,
+      "bar": 770.2,
+      "record_date": "2019-01-30 22:40:00",
+      "dew": 1.1,
+      "heat": 11.1,
+      "hum": 47,
+      "rain": 0,
+      "temp": 12.1,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 187,
+    "fields": {
+      "chill": 11.1,
+      "bar": 770.2,
+      "record_date": "2019-01-30 22:50:00",
+      "dew": 1.1,
+      "heat": 10,
+      "hum": 51,
+      "rain": 0,
+      "temp": 10.9,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 188,
+    "fields": {
+      "chill": 10.6,
+      "bar": 770.2,
+      "record_date": "2019-01-30 23:00:00",
+      "dew": 1.1,
+      "heat": 10,
+      "hum": 52,
+      "rain": 0,
+      "temp": 10.8,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 189,
+    "fields": {
+      "chill": 10.6,
+      "bar": 770.3,
+      "record_date": "2019-01-30 23:10:00",
+      "dew": 1.1,
+      "heat": 10,
+      "hum": 54,
+      "rain": 0,
+      "temp": 10.4,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 190,
+    "fields": {
+      "chill": 10.6,
+      "bar": 770.2,
+      "record_date": "2019-01-30 23:30:00",
+      "dew": 1.7,
+      "heat": 10,
+      "hum": 55,
+      "rain": 0,
+      "temp": 10.6,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 191,
+    "fields": {
+      "chill": 10,
+      "bar": 770.2,
+      "record_date": "2019-01-30 23:40:00",
+      "dew": 1.7,
+      "heat": 9.4,
+      "hum": 56,
+      "rain": 0,
+      "temp": 10.2,
+      "station": 1
+    }
+  },
+  {
+    "model": "analysis.WeatherRecord",
+    "pk": 192,
+    "fields": {
+      "chill": 9.4,
+      "bar": 770.2,
+      "record_date": "2019-01-30 23:50:00",
+      "dew": 1.7,
+      "heat": 8.9,
+      "hum": 59,
+      "rain": 0,
+      "temp": 9.7,
+      "station": 1
+    }
+  }
+]

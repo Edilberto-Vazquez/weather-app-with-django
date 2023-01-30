@@ -1,0 +1,13 @@
+[
+  {
+    "model": "analysis.WeatherStation",
+    "pk": 1,
+    "fields": {
+      "location": "mexico/puebla/cholula",
+      "latitude": 19.035451930247515,
+      "longitude": -98.31682315982775,
+      "start_date": "2019-01-29 14:00:00",
+      "name": "INAOE STATION"
+    }
+  }
+]
