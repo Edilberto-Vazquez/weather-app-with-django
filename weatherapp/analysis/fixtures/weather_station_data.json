@@ -6,7 +6,9 @@
       "location": "mexico/puebla/cholula",
       "latitude": 19.035451930247515,
       "longitude": -98.31682315982775,
-      "start_date": "2019-01-29 14:00:00",
+      "init_upload_date": "2019-01-29 14:00:00",
+      "last_upload_date": "2019-01-30 23:50:00",
+      "active": true,
       "name": "INAOE STATION"
     }
   }

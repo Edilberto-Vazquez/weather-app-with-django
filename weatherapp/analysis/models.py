@@ -9,7 +9,9 @@ class WeatherStation(models.Model):
     longitude = models.DecimalField(
         max_digits=9, decimal_places=6, null=True, blank=True
     )
-    start_date = models.DateTimeField(verbose_name="operation date")
+    init_upload_date = models.DateTimeField(verbose_name="initial upload date")
+    last_upload_date = models.DateTimeField(verbose_name="last upload date")
+    active = models.BooleanField(verbose_name="station is active")
     name = models.CharField(max_length=50, verbose_name="station name")
 
     def __str__(self) -> str:
