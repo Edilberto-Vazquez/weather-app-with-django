@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'analysis/style.css' %}" />
+    <title>Weather Stations</title>
+  </head>
+  <body>
+    <main class="analysis-view">
+      <h2 class="analysis-view__title">Weather App</h2>
+      {% if station_list %}
+      <ul class="station-list">
+        {% for station in station_list %}
+        <li class="station-list__item">
+          <a href="{% url 'analysis:graphic-detail' station.id %}">
+            <div class="station-card">
+              <img
+                class="station-card__img"
+                src="https://img.icons8.com/windows/96/null/weather-station-wind.png"
+                alt="station image"
+              />
+              <div class="station-card__info">
+                <h3 class="station-card__info-title">{{station.name}}</h3>
+                <ul class="station-card__info-dates">
+                  <li>
+                    From:
+                    <span class="card-info-tag"
+                      >{{station.init_upload_date|date:"M d, Y"}}</span
+                    >
+                  </li>
+                  <li>
+                    To:
+                    <span class="card-info-tag"
+                      >{{station.last_upload_date|date:"M d, Y"}}</span
+                    >
+                  </li>
+                </ul>
+                <ul class="station-card__info-description">
+                  <li>
+                    Location:
+                    <span class="card-info-tag">{{station.location}}</span>
+                  </li>
+                  <li>
+                    Active:
+                    <span class="card-info-tag">{{station.active}}</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="no-station-list">No weather stations available</p>
+      {% endif %}
+    </main>
+  </body>
+</html>
