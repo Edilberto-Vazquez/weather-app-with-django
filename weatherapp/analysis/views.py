@@ -19,20 +19,37 @@ class IndexView(generic.ListView):
 
 # template views
 def get_time_labels(date_field: str, from_date: str, to_date: str) -> list:
-    start = datetime.strptime(from_date, "%Y-%m-%d")
+    days_of_month = {
+        1: 31,
+        2: 28,
+        3: 31,
+        4: 30,
+        5: 31,
+        6: 30,
+        7: 31,
+        8: 31,
+        9: 30,
+        10: 31,
+        11: 30,
+        12: 31,
+    }
+    start = datetime.strptime(from_date, "%Y-%m-%d").replace(day=1)
     end = datetime.strptime(to_date, "%Y-%m-%d")
+
+    if end.month == 2:
+        end = end.replace(day=28)
 
     date_array = []
 
     while start <= end:
         if date_field == "month":
             date_array.append(start.strftime("%Y-%m"))
-            start += timedelta(days=31)
+            start += timedelta(days=days_of_month[start.month])
         elif date_field == "year":
-            date_array.append(start.year)
+            date_array.append(start.strftime("%Y"))
             start += timedelta(days=365)
 
-    return list(dict.fromkeys(date_array)).sort()
+    return date_array
 
 
 def graphic_detail(request: HttpRequest, station_id: int, from_date: str, to_date: str):

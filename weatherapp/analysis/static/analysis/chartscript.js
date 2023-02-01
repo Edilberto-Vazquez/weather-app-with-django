@@ -40,6 +40,9 @@ const printChart = async (date_field, from_date, to_date) => {
     generateURL(ctx.attributes.name.value, date_field, from_date, to_date)
   );
 
+  console.log(labels);
+  console.log(datasets);
+
   const config = {
     type: "line",
     data: {
