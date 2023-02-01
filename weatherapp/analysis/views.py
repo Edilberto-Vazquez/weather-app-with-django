@@ -32,7 +32,7 @@ def get_time_labels(date_field: str, from_date: str, to_date: str) -> list:
             date_array.append(start.year)
             start += timedelta(days=365)
 
-    return list(dict.fromkeys(date_array))
+    return list(dict.fromkeys(date_array)).sort()
 
 
 def graphic_detail(request: HttpRequest, station_id: int, from_date: str, to_date: str):
@@ -88,25 +88,6 @@ def line_chart_data_api(
             rain=Avg("rain"),
         )
         .order_by("time")
-    )
-    print(
-        WeatherRecord.objects.filter(
-            station_id=station_id,
-            record_date__range=(from_date_formated, to_date_formated),
-        )
-        .annotate(time=Trunc("record_date", date_field))
-        .values("time")
-        .annotate(
-            temp=Avg("temp"),
-            chill=Avg("chill"),
-            dew=Avg("dew"),
-            heat=Avg("heat"),
-            hum=Avg("hum"),
-            bar=Avg("bar"),
-            rain=Avg("rain"),
-        )
-        .order_by("time")
-        .query
     )
 
     for weather in weather_data:
