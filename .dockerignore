@@ -1,0 +1,7 @@
+.gitignore
+.env.example
+docker-compose.yml
+postgres_data/
+venv/
+README.md
+Dockerfile

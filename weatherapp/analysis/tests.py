@@ -19,7 +19,7 @@ class WeatherRecordModelTest(TestCase):
     def test_line_chart_data_when_is_it_per_month_and_year(self):
         client = Client()
         expected_result_month = {
-            "labels": None,
+            "labels": ["2019-01"],
             "datasets": [
                 {"data": [{"x": "2019-01", "y": 16.120338983050846}], "label": "temp"},
                 {"data": [{"x": "2019-01", "y": 15.371186440677963}], "label": "chill"},
@@ -32,7 +32,7 @@ class WeatherRecordModelTest(TestCase):
         }
 
         expected_result_year = {
-            "labels": None,
+            "labels": ["2019"],
             "datasets": [
                 {"data": [{"x": "2019", "y": 16.120338983050846}], "label": "temp"},
                 {"data": [{"x": "2019", "y": 15.371186440677963}], "label": "chill"},
