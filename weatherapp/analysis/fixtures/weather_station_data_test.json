@@ -1,0 +1,80 @@
+[
+  {
+    "model": "analysis.WeatherStation",
+    "pk": 1,
+    "fields": {
+      "location": "mexico/puebla/cholula",
+      "latitude": 19.035451930247515,
+      "longitude": -98.31682315982775,
+      "init_upload_date": "2019-01-29 14:00:00",
+      "last_upload_date": "2019-10-04 14:30:00",
+      "active": true,
+      "name": "INAOE"
+    }
+  },
+  {
+    "model": "analysis.WeatherStation",
+    "pk": 2,
+    "fields": {
+      "location": "mexico/puebla/sierra-negra",
+      "latitude": 19.035451930247515,
+      "longitude": -98.31682315982775,
+      "init_upload_date": "2019-01-29 14:00:00",
+      "last_upload_date": "2019-01-30 23:50:00",
+      "active": true,
+      "name": "GTM-SIERRA-NEGRA"
+    }
+  },
+  {
+    "model": "analysis.WeatherStation",
+    "pk": 3,
+    "fields": {
+      "location": "mexico/puebla/san-jose-chiapa",
+      "latitude": 19.035451930247515,
+      "longitude": -98.31682315982775,
+      "init_upload_date": "2019-01-29 14:00:00",
+      "last_upload_date": "2019-01-30 23:50:00",
+      "active": true,
+      "name": "BUAP-CRC"
+    }
+  },
+  {
+    "model": "analysis.WeatherStation",
+    "pk": 4,
+    "fields": {
+      "location": "mexico/puebla/san-jose-chiapa",
+      "latitude": 19.035451930247515,
+      "longitude": -98.31682315982775,
+      "init_upload_date": "2019-01-29 14:00:00",
+      "last_upload_date": "2019-01-30 23:50:00",
+      "active": true,
+      "name": "UPAEP-PUE"
+    }
+  },
+  {
+    "model": "analysis.WeatherStation",
+    "pk": 5,
+    "fields": {
+      "location": "mexico/puebla",
+      "latitude": 19.035451930247515,
+      "longitude": -98.31682315982775,
+      "init_upload_date": "2019-01-29 14:00:00",
+      "last_upload_date": "2019-01-30 23:50:00",
+      "active": true,
+      "name": "ITP"
+    }
+  },
+  {
+    "model": "analysis.WeatherStation",
+    "pk": 6,
+    "fields": {
+      "location": "mexico/puebla/coatzacoalcos",
+      "latitude": 19.035451930247515,
+      "longitude": -98.31682315982775,
+      "init_upload_date": "2019-01-29 14:00:00",
+      "last_upload_date": "2019-01-30 23:50:00",
+      "active": true,
+      "name": "COATZACOALCOS"
+    }
+  }
+]
