@@ -24,12 +24,35 @@
     <title>Graphic Detail</title>
   </head>
   <body>
-    {% if station_id %}
-    <div id="container" style="width: 75%">
-      <canvas id="chart" name="{{station_id}}"></canvas>
-    </div>
-    {% else %}
-    <p>Station id not provided</p>
-    {% endif %}
+    <main class="graphic-detail-view">
+      {% if station_id %}
+      <div id="chart-container" class="chart-container">
+        <canvas
+          id="chart"
+          class="chart-contaier__canvas"
+          name="{{station_id}}"
+        ></canvas>
+        <div class="chart-inputs">
+          <form class="chart__date-pickers">
+            <label for="from-date-picker"
+              >From:
+              <input type="date" id="from-date-picker" name="from-date-picker"
+            /></label>
+            <label for="to-date-picker"
+              >To: <input type="date" id="to-date-picker" name="to-date-picker"
+            /></label>
+          </form>
+          <div class="chart__date-buttons">
+            <button id="month-button" class="date__button">Month</button
+            ><button id="year-button" class="date__button">Year</button>
+          </div>
+        </div>
+      </div>
+      {% else %}
+      <div id="no-chart">
+        <p>Station id not provided</p>
+      </div>
+      {% endif %}
+    </main>
   </body>
 </html>

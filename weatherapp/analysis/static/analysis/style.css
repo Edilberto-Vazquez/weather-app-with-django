@@ -1,3 +1,10 @@
+:root {
+  --main-light: #9ad0f5;
+  --main-dark: #0091c6;
+  --secondary-light: #57606a;
+  --secondary-dark: #323232;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -18,11 +25,14 @@ body {
   justify-content: center;
 }
 
-.analysis-view {
+.analysis-view,
+.graphic-detail-view {
   width: 100%;
   max-width: 1200px;
   min-height: 100%;
   padding: 12px;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 .analysis-view__title {
@@ -55,7 +65,7 @@ body {
 }
 
 .station-card:hover {
-  border: 2px solid #323232;
+  border: 2px solid var(--secondary-dark);
 }
 
 .station-card__img {
@@ -71,7 +81,7 @@ body {
   display: grid;
   grid-auto-rows: min-content;
   gap: 8px;
-  color: #0091c6;
+  color: var(--main-dark);
 }
 
 .station-card__info-title {
@@ -94,6 +104,59 @@ body {
 }
 
 .card-info-tag {
-  color: #57606a;
+  color: var(--secondary-light);
   overflow: hidden;
+}
+
+.chart-container {
+  width: 100%;
+  display: grid;
+  grid-auto-rows: min-content;
+}
+
+.chart-inputs {
+  width: 100%;
+  height: 52px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 460px));
+  gap: 8px;
+  place-content: center;
+}
+
+.chart__date-pickers {
+  max-width: 900px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 160px));
+  place-content: center;
+  gap: 8px;
+}
+
+.chart__date-pickers > label {
+  font-size: 1.4rem;
+  color: var(--secondary-light);
+}
+
+.chart__date-pickers > label > input {
+  width: 100%;
+  height: 32px;
+  border: 2px solid var(--main-light);
+  border-radius: 4px;
+}
+
+.chart__date-buttons {
+  max-width: 900px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(98px, 140px));
+  place-content: center;
+  gap: 8px;
+}
+
+.chart__date-buttons > .date__button {
+  width: 100%;
+  height: 32px;
+  border: none;
+  background-color: var(--main-light);
+  border-radius: 4px;
 }

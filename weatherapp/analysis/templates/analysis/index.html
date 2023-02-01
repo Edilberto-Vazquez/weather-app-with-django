@@ -15,7 +15,9 @@
       <ul class="station-list">
         {% for station in station_list %}
         <li class="station-list__item">
-          <a href="{% url 'analysis:graphic-detail' station.id %}">
+          <a
+            href="{% url 'analysis:graphic-detail' station.id station.init_upload_date station.last_upload_date %}"
+          >
             <div class="station-card">
               <img
                 class="station-card__img"
