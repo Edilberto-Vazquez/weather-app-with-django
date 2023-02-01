@@ -1,9 +1,9 @@
-const URL = "http://127.0.0.1:8000/analysis/line-chart-data-api/";
+const URL = "http://127.0.0.1:8000/line-chart-data-api/";
 
 const getUrlDate = (date_type) => {
   const positions = new Map([
-    ["from", 4],
-    ["to", 5],
+    ["from", 3],
+    ["to", 4],
   ]);
 
   return window.location.pathname
