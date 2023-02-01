@@ -72,15 +72,15 @@ const dateButton = (field) => () => {
 };
 
 const datePicker = (e) => {
-  if (new Date(e.target.value) > new Date(to_date)) {
-    alert("From Date cannot be greater than to Date");
-    return;
-  } else {
-    if (new Date(e.target.value) < new Date(from_date)) {
-      alert("To Date cannot be less than From Date");
-      return;
-    }
-  }
+  // if (new Date(e.target.value) > new Date(to_date)) {
+  //   alert("From Date cannot be greater than to Date");
+  //   return;
+  // } else {
+  //   if (new Date(e.target.value) < new Date(from_date)) {
+  //     alert("To Date cannot be less than From Date");
+  //     return;
+  //   }
+  // }
   switch (e.target.id) {
     case "from-date-picker":
       from_date = e.target.value;

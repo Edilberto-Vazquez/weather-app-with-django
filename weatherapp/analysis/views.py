@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpRequest, HttpResponse, JsonResponse
+from django.http import HttpRequest, JsonResponse
+from django.utils import timezone
 from django.db.models.functions import Trunc
 from django.db.models import Avg
 from django.views import generic
@@ -66,8 +67,15 @@ def line_chart_data_api(
         GROUP  BY day
         ORDER  BY day;
     """
+
+    from_date_formated = timezone.make_aware(datetime.strptime(from_date, "%Y-%m-%d"))
+    to_date_formated = timezone.make_aware(datetime.strptime(to_date, "%Y-%m-%d"))
+
     weather_data = (
-        WeatherRecord.objects.filter(station_id=station_id)
+        WeatherRecord.objects.filter(
+            station_id=station_id,
+            record_date__range=(from_date_formated, to_date_formated),
+        )
         .annotate(time=Trunc("record_date", date_field))
         .values("time")
         .annotate(
@@ -80,6 +88,25 @@ def line_chart_data_api(
             rain=Avg("rain"),
         )
         .order_by("time")
+    )
+    print(
+        WeatherRecord.objects.filter(
+            station_id=station_id,
+            record_date__range=(from_date_formated, to_date_formated),
+        )
+        .annotate(time=Trunc("record_date", date_field))
+        .values("time")
+        .annotate(
+            temp=Avg("temp"),
+            chill=Avg("chill"),
+            dew=Avg("dew"),
+            heat=Avg("heat"),
+            hum=Avg("hum"),
+            bar=Avg("bar"),
+            rain=Avg("rain"),
+        )
+        .order_by("time")
+        .query
     )
 
     for weather in weather_data:
